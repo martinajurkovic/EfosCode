@@ -1,0 +1,78 @@
+html {
+	font-family: Helvetica, Sans-serif;
+}
+header {
+	width: 1000px;
+	margin: 0 auto 30px auto;
+}
+.sadrzaj {
+	width: 1000px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.lijevidio {
+	width: 200px;
+	float: left;
+}
+.lijevidio ul {
+	list-style: none;
+}
+.lijevidio ul li {
+	margin: 0 auto 10px auto;
+}
+.lijevidio ul li a {
+	text-decoration: none;
+	color: #000;
+}
+.lijevidio ul li a:hover {
+	text-decoration: underline;
+	color: #0066ff;
+}
+.srednjidio {
+	width: 460px;
+	float: left;
+	margin-right: 20px;
+}
+.srednjidio h2 {
+	color: #29293d;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0 0 30px 0;
+}
+.srednjidio h3 {
+	color: #5c5c8a;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 24px 0;
+}
+.srednjidio p {
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 0 20px 0;
+}
+.srednjidio p a {
+	text-decoration: none;
+	color: #52527a;
+}
+.srednjidio p a:hover {
+	text-decoration: underline;
+	color: #5c5c8a;
+}
+.desnidio {
+	width: 320px;
+	float: left;
+}
+.desnidio p {
+	font-size: 16px;
+	line-height: 20px;
+}
+.desnidio iframe {
+	margin: 20px 0;
+}
